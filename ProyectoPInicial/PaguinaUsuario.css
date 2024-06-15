@@ -1,0 +1,221 @@
+body{
+    font-family: Arial, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:0px;
+  }
+ 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing:0px;
+  }
+.BODY{
+    background-color: black;
+}
+.Text{
+ color:white;
+}
+
+.M1{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+header{
+    background-color: #3E553A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+}
+
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 70px;
+}
+nav img{
+    height: 40px;
+    cursor: pointer;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+@media(max-width:700px){
+  header{
+flex-direction: column;
+    }
+}
+.search{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: center;
+   position: relative;
+}
+input{
+    padding: 10px;
+    padding-right:70px;
+    border-radius:5px 5px 5px 5px;
+    border: 0;
+    outline: none;
+    background-color: #adb5ad;
+}
+button{
+    background-color: #3E553A;
+}
+
+
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right:0px;
+    background-color: #3E553A;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown li {
+    list-style-type: none;
+    padding: 8px 16px;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown li:hover {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+    .icon {
+        font-size: 18px;
+    }
+    
+    .dropdown {
+        width: 100%;
+    }
+}
+ 
+
+.Reproductor{
+   background-color:  #3E553A;
+   display: flex;
+   justify-content: center;
+   align-items: center;    /*justife-content y align-items es para hacer al centro el contenido*/
+   gap: 35px; /*Para ponerle espacio al los elementos*/
+   border-radius: 50px;
+   border: 6px solid black;
+}
+.Musica{
+    height: 60px;
+}
+
+
+
+.Musica {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 50px; /* Ajusta según la posición del ícono */
+    left: 0px; /* Ajusta según la posición del ícono */
+    background-color: #3E553A;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: #f0f0f0;
+}
+
+
+.f{
+    border-radius: 100%;
+    width: 70px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.text{
+overflow: hidden;
+margin-top: 30px;
+}
+.a{
+ width: 30px;
+ overflow: hidden; 
+ float: right;
+ margin-right:40px ;
+}
+.H5{
+    background-color:#adb5ad; 
+      color: black; 
+      text-align: center; 
+      padding: 10px; 
+      border-radius: 20px; 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+      font-size: 1em; 
+}
+
+
+.MENU {
+    display: none;
+    position: absolute;
+    top: 45px;
+    right:0%;
+    background-color: #3E553A;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.MENU ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.MENU li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.MENU li:hover {
+    background-color: #f0f0f0;
+}
+
